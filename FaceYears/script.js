@@ -35,7 +35,7 @@ var img = document.getElementById('img')
 var genero =''
 if (radsex[0].checked) {
     genero= 'Masculino'
-    if (idade >=2 && idade <=4) {
+    if (idade >=1 && idade <=4) {
        img.src = 'img/macacobebe.jpg'
     }else if(idade  == 0){
         img.src = 'img/gravida.jpg'
